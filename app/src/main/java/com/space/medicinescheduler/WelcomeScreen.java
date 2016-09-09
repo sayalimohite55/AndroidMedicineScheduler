@@ -4,6 +4,7 @@ import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.ImageSwitcher;
 
 public class WelcomeScreen extends AppCompatActivity {
 
@@ -13,10 +14,9 @@ public class WelcomeScreen extends AppCompatActivity {
         setContentView(R.layout.activity_welcome_screen);
     }
 
-    public void registerUser(View view)
-    {
+    public void registerUser(View view) {
         //starting new activity
-        Intent newUser=new Intent(getApplicationContext(),RegisterUser.class);
-        startActivity(newUser);
+        Intent homeScreen = new Intent(getApplicationContext(), HomeScreen.class);
+        startActivity(homeScreen);
     }
 }

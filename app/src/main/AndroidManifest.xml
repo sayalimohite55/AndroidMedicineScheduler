@@ -15,9 +15,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".RegisterUser" />
-        <activity android:name=".HomePage" />
-        <activity android:name=".Option"></activity>
+        <activity android:name=".HomeScreen" />
+        <activity android:name=".CreateScheduleActivity" />
+        <activity android:name=".ListSchedule"></activity>
     </application>
 
 </manifest>
